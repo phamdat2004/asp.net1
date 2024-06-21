@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .product-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-item h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .product-item p {
+            font-size: 16px;
+            color: #666;
+            margin: 10px 0;
+        }
+
+        .product-item .price {
+            font-size: 20px;
+            color: #007bff;
+            margin: 10px 0;
+        }
+
+        .product-item button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .product-item button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Online Store</h1>
+    </div>
+    <div class="container">
+        <div class="product-list">
+            <div class="product-item">
+                <img src="https://cf.shopee.vn/file/sg-11134201-7rd6m-lwbi3j3acfmla3" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>Description of Product 1</p>
+                <div class="price">$19.99</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://images.fpt.shop/unsafe/fit-in/240x215/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/12/637407970062806725_mba-2020-gold-dd.png" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Description of Product 2</p>
+                <div class="price">$29.99</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item">
+                <img src="https://images.fpt.shop/unsafe/fit-in/214x214/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2024/6/1/638528385683685914_xiaomi-redmi-note-13-dd-bh-500k.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Description of Product 3</p>
+                <div class="price">$39.99</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
